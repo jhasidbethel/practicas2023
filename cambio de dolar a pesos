@@ -1,0 +1,13 @@
+import java.util.Scanner; 
+public class Main{   
+public static void main(String [] args){ 
+Scanner objeto = new Scanner(System.in);
+System.out.println("bienvenido a su sistema de cambio :) ");
+System.out.println("digite el monto a cambiar $ ");
+
+double numero = objeto.nextDouble();
+double  cambio = numero * 4.764;
+System.out.println("su cambio es de : $ " + cambio + " pesos colombianos " );
+
+}
+}
